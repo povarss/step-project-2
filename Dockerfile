@@ -14,3 +14,4 @@ EXPOSE 3000
 ENTRYPOINT ["npm"]
 # Define the command to run the app
 CMD ["start"]
+CMD ["test"]
