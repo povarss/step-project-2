@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'worker' }
+    agent { label 'jenkins-worker' }
 
     environment {
         GIT_URL = "https://github.com/povarss/step-project-2.git"
